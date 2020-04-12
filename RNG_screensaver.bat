@@ -3,7 +3,7 @@ mode 1000
 :numgen
 title  
 set /a n=%Random% %%11
-ping 127.0.0.1 -n 1.9 > nul
+ping 127.0.0.1 -n 1 > nul
 if %n% == 1 goto 1
 if %n% == 2 goto 2
 if %n% == 3 goto 3
