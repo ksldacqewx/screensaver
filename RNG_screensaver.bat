@@ -1,7 +1,6 @@
 @echo off
 mode 1000
 :numgen
-set /a x+=1
 title  
 set /a n=%Random% %%11
 ping 127.0.0.1 -n 1.9 > nul
